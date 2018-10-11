@@ -47,20 +47,29 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btn_multiplica" />
+            android:text="@string/btn_multiplica"
+            style="@style/EstiloBoton"
+            android:background="@drawable/fondo_boton"
+            />
 
         <Button
             android:id="@+id/btDivide"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btn_divide" />
+            android:text="@string/btn_divide"
+            style="@style/EstiloBoton"
+            android:background="@drawable/fondo_boton"
+            />
 
         <Button
             android:id="@+id/btLimpiar"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btn_resetea" />
+            android:text="@string/btn_resetea"
+            style="@style/EstiloBoton"
+            android:background="@drawable/fondo_boton"
+            />
     </LinearLayout>
 </LinearLayout>
