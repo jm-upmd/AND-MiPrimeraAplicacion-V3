@@ -49,7 +49,7 @@
             android:layout_weight="1"
             android:text="@string/btn_multiplica"
             style="@style/EstiloBoton"
-            android:background="@drawable/fondo_boton"
+            android:background="@drawable/button_corner_background"
             />
 
         <Button
