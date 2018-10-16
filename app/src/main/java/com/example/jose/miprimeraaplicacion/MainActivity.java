@@ -68,7 +68,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    void duplicar() {
+    private void duplicar() {
         int valor,numeroEntrada;
         try {
             numeroEntrada = Integer.parseInt(mNumeroEntrada.getText().toString());
@@ -89,7 +89,7 @@ public class MainActivity extends AppCompatActivity {
         }
     }
 
-    void resetear() {
+    private void resetear() {
         mCalculo.setText("1");
         mNumeroEntrada.setText("");
         mBotonDuplicar.setEnabled(true);
