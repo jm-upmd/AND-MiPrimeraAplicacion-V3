@@ -20,7 +20,7 @@
     <!-- Defino un estilo para aplicar a los botones -->
 
     <style name="EstiloBoton">
-        <item name="android:background">@android:color/holo_blue_dark</item>
+        <item name="android:background">@drawable/fondo_boton_mejorado</item>
         <item name="android:textColor">@android:color/white</item>
         <item name="android:layout_margin">4dp</item>
         <item name="android:textSize">10sp</item>

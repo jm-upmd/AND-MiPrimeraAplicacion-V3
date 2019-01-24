@@ -19,7 +19,9 @@
         android:layout_height="wrap_content"
         android:layout_gravity="center_horizontal"
         android:text="1"
-        android:textSize="36sp" />
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="36sp"
+        android:textStyle="bold" />
    <!-- <Space
         android:layout_width="wrap_content"
         android:layout_height="100dp" />-->
@@ -44,32 +46,26 @@
 
         <Button
             android:id="@+id/btMultiplica"
+            style="@style/EstiloBoton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btn_multiplica"
-            style="@style/EstiloBoton"
-            android:background="@drawable/button_corner_background"
-            />
+            android:text="@string/btn_multiplica" />
 
         <Button
             android:id="@+id/btDivide"
+            style="@style/EstiloBoton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btn_divide"
-            style="@style/EstiloBoton"
-            android:background="@drawable/fondo_boton"
-            />
+            android:text="@string/btn_divide" />
 
         <Button
             android:id="@+id/btLimpiar"
+            style="@style/EstiloBoton"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_weight="1"
-            android:text="@string/btn_resetea"
-            style="@style/EstiloBoton"
-            android:background="@drawable/fondo_boton"
-            />
+            android:text="@string/btn_resetea" />
     </LinearLayout>
 </LinearLayout>
